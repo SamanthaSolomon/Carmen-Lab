@@ -40,7 +40,7 @@ CREATE TABLE countrylanguages (
     countrycode character(3) NOT NULL,
     "language" text NOT NULL,
     isofficial boolean NOT NULL,
-    percentage real NOT NULL
+    percentage real NOT NULLq
 );
 
 COPY cities (id, name, countrycode, district, population) FROM stdin;
